@@ -1,0 +1,76 @@
+body {
+	text-align: center;
+	padding: 0px;
+}
+
+.main {
+	display:inline-block;
+	width:1000px;
+	text-align: center;
+}
+
+	.main .add_element {
+		height:30px;
+		width:505px;
+		padding-left:10px;
+	}
+	
+	.main .add_button {
+		height:30px;
+		width:105px;
+		background-color: skyblue;
+		border:none;
+		margin-left:-4px;
+		cursor:pointer;
+	}
+	
+#inputValue{
+	margin-bottom: 2px;
+}
+
+#listview {
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+	
+	
+#listview li {
+	background-color: blue;
+	display:inline-block;
+	padding: 0px;
+	height:30px;
+	width:610px;
+	line-height:30px;
+	margin-bottom:2px;
+	opacity: 1;
+	transition: opacity 0.5s;
+	cursor: pointer;
+	}
+	
+	#listview li:hover {
+		background-color: skyblue;
+	}
+	
+	#listview li button { 
+		border: none; 
+		float: right;
+		height: 100%;
+		width: 100px;
+		cursor: pointer
+	}
+
+#footerview {
+	display:inline-block;
+	text-align:right;
+	font-weight: bold;
+	background-color: #000;
+	width:600px;
+	padding:10px 0px;
+	padding-right: 10px;
+	color:#fff;
+}
+
+.active_element {
+		background-color:red !important;
+	}
